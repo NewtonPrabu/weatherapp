@@ -1,0 +1,207 @@
+*
+{
+    font-family: "Comic Neue", cursive;
+    font-style: normal;
+}
+
+body
+{
+  margin: 0;
+  padding: 0;
+  background-color: #2f3640;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container
+{
+  width: 350px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow:  0px 4px 8px rgba(0, 0, 0, 0.1)
+}
+
+.name
+{
+  text-align: center;
+  padding: 5px;
+}
+
+.name .wea
+{
+  color: rgb(22, 173, 173);
+}
+
+.input-container
+{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.cityInput
+{
+  flex: 1;
+  height: 30px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 10px;
+  font-weight: bolder;
+
+}
+
+.SearchIcon
+{
+  cursor: pointer;
+  padding: 10px;
+  height: 30px;
+  transition: 0.5s;
+  
+}
+
+.SearchIcon:hover
+{
+ transform: scale(1.3);
+ 
+  
+}
+
+.SearchIcon img
+{
+  width: 27px;
+  height: 27px;
+}
+
+.image
+{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  text-align: center;
+  height: 120px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.image img
+{
+  width: 120px;
+  height: 120px;
+}
+
+.temp,.location,.country
+{
+  margin-top: 5px;
+  font-size: 35px;
+  color: #333;
+  text-align: center;
+
+}
+
+.temp
+{
+  font-weight: 900;
+}
+
+.location
+{
+  color: #ffbc00;
+  font-size: 40px;
+}
+
+.country
+{
+  font-size: 18px;
+  color: #888;
+  font-weight: 500;
+}
+
+.coor
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.coor div
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+}
+
+.coor div span
+{
+  font-size: 14px;
+}
+
+.coor div span:nth-child(2),.humidity-percent,.wind-speed
+{
+  font-size: 18px;
+  color: #666;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.data-container
+{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+
+}
+
+.element
+{
+  text-align: center;
+}
+
+.element img
+{
+  width: 60px;
+  height: 60px;
+}
+
+.text
+{
+  font-size: 12px;
+  color: #888;
+
+}
+
+.copyright
+{
+  text-align: center;
+  font-size: 12px;
+  
+  color: #888;
+}
+
+.copyright span
+{
+  font-weight: bolder;
+  color: #333;
+}
+
+.loading-message,.error-message,.city-not-found
+{
+  margin-top: 10px;
+  color: #888;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+}
